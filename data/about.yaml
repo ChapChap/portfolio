@@ -1,56 +1,53 @@
 # your designation
-designation: Software Engineer
+designation: Ingénieur Cloud
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: BNP Paribas Partners for Innovation
+  # url: "https://www.example.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+# summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'Ingénieur Cloud au parcours d’ingénieur système linux, j’oriente mon profil vers les services Cloud avec [Kubernetes](https://kubernetes.io/) et IBMCloud en 2018. Je suis à la recherche de nouvelles missions dans ce domaine d’accélération time-to-market applicatif au travers des technologies Cloud.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
-
-- name: Github
-  icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "chapusot.antoine@pm.me"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "#"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/ChapChap"
 
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
+- name: Gitlab
+  icon: "fab fa-gitlab"
+  url: "https://gitlab.com/TheChap"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/11330073/chap"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported color: blue, yellow, pink, green
 softSkills:
-- name: Leadership
-  percentage: 85
+- name: Travail en équipe
+  percentage: 95
   color: blue
-- name: Team Work
+- name: Dynamique
   percentage: 90
   color: yellow
-- name: Communication
+- name: Curieux
   percentage: 85
   color: pink
-- name: Hard Working
+- name: Persévérant
   percentage: 85
   color: green
