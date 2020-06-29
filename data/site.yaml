@@ -11,9 +11,9 @@ author:
     phone: "+33650551463"
   # a summary of what you do
   summary:
-  - Je suis un Ingénieur Cloud
-  - Je travaille avec Kubernetes
-  - J'aime travailler sur des projects innovants et fun
+  - Ingénieur Cloud
+  - Addicte Kubernetes
+  - J'aime les projets inovants
 
 # Menus of the home page
 menus:
@@ -32,9 +32,9 @@ menus:
 - name: Projets
   url: "#projects"
   weight: 5
-# - name: Recent Posts
-#   url: "#recent-posts"
-#   weight: 6
-# - name: Achievements
-#   url: "#achievements"
-#   weight: 7
+- name: Parcours Scolaire
+  url: "#recent-posts"
+  weight: 6
+- name: Succès
+  url: "#achievements"
+  weight: 7
