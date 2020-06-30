@@ -30,11 +30,25 @@
 
     
     
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-xxxxxxxx', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
   </head>
-  <body data-spy="scroll" data-target="#top-navbar" data-offset="50">
+  <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
+
     <nav class="navbar navbar-expand-lg top-navbar initial-navbar" id="top-navbar">
   <div class="container">
-    <a class="navbar-brand" href="http://antoine.chapusot.fr/">
+    <a class="navbar-brand" href="http://de.antoine.chapusot.fr/">
       <img src="/assets/images/logo-inverted.png" id="logo">Antoine Chapusot Portfolio</a>
     <button
       class="navbar-toggler navbar-dark"
@@ -48,34 +62,53 @@
 
     <div class="collapse navbar-collapse" id="top-nav-items">
       <ul class="navbar-nav ml-auto">
-        
         <li class="nav-item">
           <a class="nav-link smooth-scroll" href="#home">Home</a>
         </li>
+            
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#about">About</a>
+              </li>
+            
+            
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#skills">Skills</a>
+              </li>
+            
+            
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#experiences">Experiences</a>
+              </li>
+            
+            
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#projects">Projects</a>
+              </li>
+            
+            
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#school-career">School Career</a>
+              </li>
+            
+            
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#achievements">Achievements</a>
+              </li>
+            
         
-        <li class="nav-item">
-          <a class="nav-link smooth-scroll" href="#about">A Propos</a>
-        </li>
         
-        <li class="nav-item">
-          <a class="nav-link smooth-scroll" href="#skills">Compétences</a>
-        </li>
+          
+            
+          
         
-        <li class="nav-item">
-          <a class="nav-link smooth-scroll" href="#experiences">Expériences</a>
-        </li>
         
-        <li class="nav-item">
-          <a class="nav-link smooth-scroll" href="#projects">Projets</a>
-        </li>
+          <div class="dropdown-divider" id="top-navbar-divider"></div>
         
-        <li class="nav-item">
-          <a class="nav-link smooth-scroll" href="#recent-posts">Parcours Scolaire</a>
-        </li>
         
-        <li class="nav-item">
-          <a class="nav-link smooth-scroll" href="#achievements">Succès</a>
-        </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="files/resume.pdf" target="/">CV</a>
+          </li>
         
       </ul>
     </div>
@@ -84,13 +117,13 @@
 <div class="container-fluid home" id="home">
   <div
     class="background container-fluid"
-    style="background-image: url('images/background3.jpg');"
+    style="background-image: url('images/background.jpg');"
   ></div>
   <div class="container content text-center">
     <img src="images/avatar.png"
       class="rounded-circle mx-auto d-block img-fluid"
     />
-    <h1 class="greeting">Bonjour, je suis Antoine Chapusot
+    <h1 class="greeting">Hi, I am Antoine Chapusot
     </h1>
     <div class="typing-carousel">
       <span id="ityped" class="ityped"></span>
@@ -100,78 +133,85 @@
       
       <li>Ingénieur Cloud</li>
       
+      <li>Passionné</li>
+      
       <li>Addicte Kubernetes</li>
       
-      <li>J&#39;aime les projets inovants</li>
+      <li>J&#39;aime le Système de Linus T.</li>
       
     </ul>
+    
     <a href="#about"><i class="arrow bounce fa fa-chevron-down"></i></a>
   </div>
 </div>
-<div class="container-fluid about bg-white anchor p-md-5 d-flex" id="about">
-  <div class="container">
-    <div class="row pt-sm-2 pt-md-4 align-self-center">
+
+    
+      
       
         
-        <div class="col-md-6">
-          <h3 class="p-1">Antoine Chapusot</h3>
-          
-          <h5 class="p-1">
-            Ingénieur Cloud
-            
-              chez <a href="">BNP Paribas Partners for Innovation</a>
-            
-          </h5>
-          
-          <p class="p-1 text-justify">
-            Ingénieur Cloud au parcours d’ingénieur système linux, j’oriente mon profil vers les services Cloud avec <a href="https://kubernetes.io/">Kubernetes</a> et IBMCloud en 2018. Je suis à la recherche de nouvelles missions dans ce domaine d’accélération time-to-market applicatif au travers des technologies Cloud.
-          </p>
-          <div class="text-container ml-auto">
-            <ul class="social-link d-flex">
-              
-              <li>
-                
-                  <a href="mailto:chapusot.antoine@pm.me" target="/"><i class="fas fa-envelope"></i></a>
-                
-              </li>
-              
-              <li>
-                
-                  <a href="https://www.linkedin.com/in/antoinechapusot/" target="/"><i class="fab fa-linkedin"></i></a>
-                
-              </li>
-              
-              <li>
-                
-                  <a href="https://github.com/ChapChap" target="/"><i class="fab fa-github"></i></a>
-                
-              </li>
-              
-              <li>
-                
-                  <a href="https://gitlab.com/TheChap" target="/"><i class="fab fa-gitlab"></i></a>
-                
-              </li>
-              
-              <li>
-                
-                  <a href="https://stackoverflow.com/users/11330073/chap" target="/"><i class="fab fa-stack-overflow"></i></a>
-                
-              </li>
-              
-            </ul>
-          </div>
-          
-          <a href="files/resume.pdf" target="#"
-            ><button class="btn btn-dark">Mon CV</button></a
-          >
-          
-        </div>
+          <div class="container-fluid section-holder d-flex bg-white">
+            <div class="container anchor p-md-5 about-section" id="about">
+  <div class="row pt-sm-2 pt-md-4 align-self-center">
+    
+    <div class="col-md-6">
+    <h3 class="p-1">Antoine Chapusot</h3>
+      
+      <h5 class="p-1">
+        Ingénieur Cloud
         
-        <div class="col-md-6 pt-5 pl-md-4 pl-sm-3 pt-md-0">
-          <div class="row">
+          at <a href="">BNP Paribas Partners for Innovation</a>
+        
+      </h5>
+      
+      <p class="p-1 text-justify">
+        Ingénieur Cloud au parcours d’ingénieur système linux, j’oriente mon profil vers les services Cloud avec <a href="https://kubernetes.io/">Kubernetes</a> et IBMCloud en 2018. Je suis à la recherche de nouvelles missions dans ce domaine d’accélération time-to-market applicatif au travers des technologies Cloud.
+      </p>
+      <div class="text-container ml-auto">
+        <ul class="social-link d-flex">
+          
+          <li>
             
-              <div class="col-6 col-lg-4 p-2">
+              <a href="mailto:chapusot.antoine@pm.me" target="/"><i class="fas fa-envelope"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://www.linkedin.com/in/antoinechapusot/" target="/"><i class="fab fa-linkedin"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://github.com/ChapChap" target="/"><i class="fab fa-github"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://gitlab.com/TheChap" target="/"><i class="fab fa-gitlab"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://stackoverflow.com/users/11330073/chap" target="/"><i class="fab fa-stack-overflow"></i></a>
+            
+          </li>
+          
+        </ul>
+      </div>
+      
+      <a href="files/resume.pdf" target="#"
+        ><button class="btn btn-dark">My Resume</button></a
+      >
+      
+    </div>
+    
+    <div class="col-md-6 pt-5 pl-md-4 pl-sm-3 pt-md-0">
+      <div class="row">
+        
+          <div class="col-6 col-lg-4 p-2">
   <div class="circular-progress blue">
     <span class="circular-progress-left">
       <span
@@ -185,8 +225,8 @@
   </div>
 </div>
 
-            
-              <div class="col-6 col-lg-4 p-2">
+        
+          <div class="col-6 col-lg-4 p-2">
   <div class="circular-progress yellow">
     <span class="circular-progress-left">
       <span
@@ -200,8 +240,8 @@
   </div>
 </div>
 
-            
-              <div class="col-6 col-lg-4 p-2">
+        
+          <div class="col-6 col-lg-4 p-2">
   <div class="circular-progress pink">
     <span class="circular-progress-left">
       <span
@@ -215,8 +255,8 @@
   </div>
 </div>
 
-            
-              <div class="col-6 col-lg-4 p-2">
+        
+          <div class="col-6 col-lg-4 p-2">
   <div class="circular-progress green">
     <span class="circular-progress-left">
       <span
@@ -230,21 +270,27 @@
   </div>
 </div>
 
-            
-          </div>
-        </div>
-      
+        
+      </div>
     </div>
   </div>
 </div>
-<div class="container-fluid skills bg-dimmed anchor pb-5" id="skills">
-  
-    <h1 class="text-center">Compétences</h1>
 
-    <div class="container d-flex-block">
-      <div class="row" id="primary-skills">
+          </div>
+          
+          
+            
+          
         
-          <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
+      
+        
+          <div class="container-fluid section-holder d-flex bg-dimmed">
+            <div class="container-fluid anchor pb-5 skills-section" id="skills">
+  <h1 class="text-center">Skills</h1>
+  <div class="container d-flex-block">
+    <div class="row" id="primary-skills">
+      
+        <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
   <div class="card">
     <div class="card-head d-flex">
       
@@ -258,8 +304,8 @@
   </div>
 </div>
 
-        
-          <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
+      
+        <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
   <div class="card">
     <div class="card-head d-flex">
       
@@ -273,8 +319,8 @@
   </div>
 </div>
 
-        
-          <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
+      
+        <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
   <div class="card">
     <div class="card-head d-flex">
       
@@ -288,8 +334,8 @@
   </div>
 </div>
 
-        
-          <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
+      
+        <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
   <div class="card">
     <div class="card-head d-flex">
       
@@ -303,8 +349,8 @@
   </div>
 </div>
 
-        
-          <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
+      
+        <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
   <div class="card">
     <div class="card-head d-flex">
       
@@ -318,8 +364,8 @@
   </div>
 </div>
 
-        
-          <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
+      
+        <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
   <div class="card">
     <div class="card-head d-flex">
       
@@ -333,8 +379,8 @@
   </div>
 </div>
 
-        
-          <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
+      
+        <div class="col-sm-12 col-md-6 col-lg-4 pt-2">
   <div class="card">
     <div class="card-head d-flex">
       
@@ -348,32 +394,40 @@
   </div>
 </div>
 
-        
-      </div>
+      
     </div>
-  
+  </div>
 </div>
-<div class="container-fluid experiences bg-white anchor" id="experiences">
-  
-    <h1 class="text-center">Expériences</h1>
 
-    <div class="container timeline text-justify">
-      
+          </div>
+          
+          
+            
+          
+        
       
         
-          <div class="row align-items-center  d-flex">
-            <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+          <div class="container-fluid section-holder d-flex bg-white">
+            <div class="container-fluid anchor pb-5 experiences-section" id="experiences">
+  <h1 class="text-center">Experiences</h1>
+
+  <div class="container timeline text-justify">
+   
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
   <div class="circle font-weight-bold">1</div>
 </div>
 
-            <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
   <div class="experience-entry-heading">
     <h5><a href="https://www.linkedin.com/company/bnp-paribas-partners-for-innovation/">BNP Paribas Partners for Innovation (BP2I)</a></h5>
     <h6>Ingénieur Cloud</h6>
     <p class="text-muted">2018 - Present, Montreuil (93)</p>
   </div>
   <p>BP2I est la joint-venture entre IBM et BNP Paribas qui construit et administre le SI de la Banque.</p>
-  <h6 class="text-muted">Responsabilités:</h6>
+  <h6 class="text-muted">Responsibilities:</h6>
   <ul class="justify-content-around">
       
         <li>Design offre PaaS de Cluster Kubernetes as a Service</li>
@@ -393,10 +447,10 @@
   </ul>
 </div>
 
-          </div>
-        
-        
-          <div class="row horizontal-line">
+       </div>
+     
+     
+       <div class="row horizontal-line">
   <div class="col-1 col-lg-2 timeline-side-div">
     <div class="corner"></div>
   </div>
@@ -408,18 +462,18 @@
   </div>
 </div>
 
-        
-      
-        
-          <div class="row align-items-center justify-content-end d-flex">
-            <div class="col-10 col-lg-8">
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         <div class="col-10 col-lg-8">
   <div class="experience-entry-heading">
     <h5><a href="https://group.accor.com/fr-FR">Accor</a></h5>
     <h6>Administrateur Systèmes Unix</h6>
     <p class="text-muted">2016 -  2018 , Courcouronnes (91)</p>
   </div>
   <p>La chaîne d&rsquo;hotelerie mondiale Accor Hotel est leader sur le marché Européen et relève les challenges d&rsquo;unifier son SI entre ses marques.</p>
-  <h6 class="text-muted">Responsabilités:</h6>
+  <h6 class="text-muted">Responsibilities:</h6>
   <ul class="justify-content-around">
       
         <li>Livraison et tunning socle système RHEL 6/7</li>
@@ -439,14 +493,14 @@
   </ul>
 </div>
 
-            <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
   <div class="circle font-weight-bold">2</div>
 </div>
 
-          </div>
-        
-        
-          <div class="row horizontal-line">
+       </div>
+     
+     
+       <div class="row horizontal-line">
   <div class="col-1 col-lg-2 timeline-side-div">
     <div class="corner"></div>
   </div>
@@ -458,22 +512,22 @@
   </div>
 </div>
 
-        
-      
-        
-          <div class="row align-items-center  d-flex">
-            <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+     
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
   <div class="circle font-weight-bold">3</div>
 </div>
 
-            <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
   <div class="experience-entry-heading">
     <h5><a href="http://www.sextant-si.com">Sextant Solution Informatique (SSI)</a></h5>
     <h6>Technicien d’exploitation</h6>
     <p class="text-muted">2014 -  2016 , Evry (91)</p>
   </div>
   <p>Sextant SI est une SSII qui offre à ses clients la gestion N1, N2 de son IT ainsi que des profils experts divers.</p>
-  <h6 class="text-muted">Responsabilités:</h6>
+  <h6 class="text-muted">Responsibilities:</h6>
   <ul class="justify-content-around">
       
         <li>POC OpenStack v12 from scratch et full stack</li>
@@ -489,10 +543,10 @@
   </ul>
 </div>
 
-          </div>
-        
-        
-          <div class="row horizontal-line">
+       </div>
+     
+     
+       <div class="row horizontal-line">
   <div class="col-1 col-lg-2 timeline-side-div">
     <div class="corner"></div>
   </div>
@@ -504,18 +558,18 @@
   </div>
 </div>
 
-        
-      
-        
-          <div class="row align-items-center justify-content-end d-flex">
-            <div class="col-10 col-lg-8">
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         <div class="col-10 col-lg-8">
   <div class="experience-entry-heading">
     <h5><a href="https://www.univ-evry.fr">Université Evry Val d&#39;Essonne</a></h5>
     <h6>Professeur Particulier (2 semaines)</h6>
     <p class="text-muted">2015 -  2015 , Evry (91)</p>
   </div>
   <p>L&rsquo;Université dans laquelle j&rsquo;ai effectué ma Licence et qui m&rsquo;a permis de donner des cours de soutien.</p>
-  <h6 class="text-muted">Responsabilités:</h6>
+  <h6 class="text-muted">Responsibilities:</h6>
   <ul class="justify-content-around">
       
         <li>Dispense de cours particulier de Math et Info</li>
@@ -523,14 +577,14 @@
   </ul>
 </div>
 
-            <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
   <div class="circle font-weight-bold">4</div>
 </div>
 
-          </div>
-        
-        
-          <div class="row horizontal-line">
+       </div>
+     
+     
+       <div class="row horizontal-line">
   <div class="col-1 col-lg-2 timeline-side-div">
     <div class="corner"></div>
   </div>
@@ -542,22 +596,22 @@
   </div>
 </div>
 
-        
-      
-        
-          <div class="row align-items-center  d-flex">
-            <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+     
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
   <div class="circle font-weight-bold">5</div>
 </div>
 
-            <div class="col-10 col-lg-8">
+         <div class="col-10 col-lg-8">
   <div class="experience-entry-heading">
     <h5><a href="http://www.micro-concept.fr">Micro Concept</a></h5>
     <h6>Stagiaire (1 mois)</h6>
     <p class="text-muted">2015 -  2015 , Seugy (95)</p>
   </div>
   <p>Micro Concept apporte des solutions informatiques telles que l&rsquo;installation et maintenance de matériel, la sécurisation des réseaux, de la téléphonie IP, du développement logiciel.</p>
-  <h6 class="text-muted">Responsabilités:</h6>
+  <h6 class="text-muted">Responsibilities:</h6>
   <ul class="justify-content-around">
       
         <li>Mise en place d’un cluster Haute Disponibilité MsSQL14 (AlwaysOn)</li>
@@ -565,10 +619,10 @@
   </ul>
 </div>
 
-          </div>
-        
-        
-          <div class="row horizontal-line">
+       </div>
+     
+     
+       <div class="row horizontal-line">
   <div class="col-1 col-lg-2 timeline-side-div">
     <div class="corner"></div>
   </div>
@@ -580,18 +634,18 @@
   </div>
 </div>
 
-        
-      
-        
-          <div class="row align-items-center justify-content-end d-flex">
-            <div class="col-10 col-lg-8">
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         <div class="col-10 col-lg-8">
   <div class="experience-entry-heading">
     <h5><a href="http://www.sextant-si.com">Sextant Solution Informatique (SSI)</a></h5>
     <h6>Responsable Service Informatique</h6>
     <p class="text-muted">2013 -  2014 , Evry (91)</p>
   </div>
   <p>Sextant SI est une SSII qui offre à ses clients la gestion N1, N2 de son IT ainsi que des profils experts divers.</p>
-  <h6 class="text-muted">Responsabilités:</h6>
+  <h6 class="text-muted">Responsibilities:</h6>
   <ul class="justify-content-around">
       
         <li>Maintenance et évolution Intranet (Sharepoint)</li>
@@ -607,45 +661,53 @@
   </ul>
 </div>
 
-            <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
   <div class="circle font-weight-bold">6</div>
 </div>
 
+       </div>
+     
+     
+   
+  </div>
+</div>
+
           </div>
-        
+          
+          
+            
+          
         
       
+        
+          <div class="container-fluid section-holder d-flex bg-dimmed">
+            <div class="container-fluid anchor pb-5 projects-section" id="projects">
+  <h1 class="text-center">Projects</h1>
+  <div class="container ml-auto text-center">
+    <div class="btn-group flex-wrap" role="group" id="project-filter-buttons">
+      
+      <button type="button" class="btn btn-dark" data-filter="all">
+        All
+      </button>
+      
+      <button type="button" class="btn btn-dark" data-filter="professional">
+        Professional
+      </button>
+      
+      <button type="button" class="btn btn-dark" data-filter="academic">
+        Academic
+      </button>
+      
+      <button type="button" class="btn btn-dark" data-filter="hobby">
+        Hobby
+      </button>
+      
     </div>
-  
-</div>
-<div class="container-fluid projects bg-dimmed anchor pb-5" id="projects">
-  
-    <h1 class="text-center">Projets</h1>
-    <div class="container ml-auto text-center">
-      <div class="btn-group flex-wrap" role="group" id="project-filter-buttons">
-        
-        <button type="button" class="btn btn-dark" data-filter="all">
-          All
-        </button>
-        
-        <button type="button" class="btn btn-dark" data-filter="professional">
-          Professional
-        </button>
-        
-        <button type="button" class="btn btn-dark" data-filter="academic">
-          Academic
-        </button>
-        
-        <button type="button" class="btn btn-dark" data-filter="hobby">
-          Hobby
-        </button>
-        
-      </div>
-    </div>
-    <div class="container filtr-projects">
-      <div class="row" id="project-card-holder">
-        
-          <div
+  </div>
+  <div class="container filtr-projects">
+    <div class="row" id="project-card-holder">
+      
+        <div
   class="col-md-6 col-lg-4 p-2 filtr-item"
   data-category='all, professional,kubernetes,cloud'
 >
@@ -682,8 +744,8 @@
   </div>
 </div>
 
-        
-          <div
+      
+        <div
   class="col-md-6 col-lg-4 p-2 filtr-item"
   data-category='all, professional,machine-learning,academic'
 >
@@ -720,8 +782,8 @@
   </div>
 </div>
 
-        
-          <div
+      
+        <div
   class="col-md-6 col-lg-4 p-2 filtr-item"
   data-category='all, academic,iot'
 >
@@ -754,8 +816,8 @@
   </div>
 </div>
 
-        
-          <div
+      
+        <div
   class="col-md-6 col-lg-4 p-2 filtr-item"
   data-category='all, hobby,fun'
 >
@@ -792,8 +854,8 @@
   </div>
 </div>
 
-        
-          <div
+      
+        <div
   class="col-md-6 col-lg-4 p-2 filtr-item"
   data-category='all, hobby,hugo,theme,professional'
 >
@@ -830,31 +892,116 @@
   </div>
 </div>
 
-        
-      </div>
-    </div>
-  
-</div>
-<div class="container-fluid recent-posts bg-white anchor pb-5" id="recent-posts">
-  <h1 class="text-center">Recent Posts</h1>
-  <div class="container">
-    <div class="row" id="recent-post-cards">
       
     </div>
   </div>
 </div>
-<div class="container-fluid achievements bg-dimmed anchor pb-5" id="achievements">
-  
-    <h1 class="text-center">Achievements</h1>
 
-    <div class="container">
-      <div class="row" id="gallery">
-      </div>
-    </div>
-    
-    <div class="d-none" id="achievements-holder">
+          </div>
+          
+          
+            
+          
+        
       
-        <div
+        
+          <div class="container-fluid section-holder d-flex bg-white">
+            <div class="container-fluid anchor" id="school-career">
+  <h1 class="text-center">School Career</h1>
+
+  <div class="container timeline text-justify">
+    
+    
+        <div class="row align-items-center  d-flex">
+          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center vertical-line-left-adjustment">
+  <div class="circle font-weight-bold">1</div>
+</div>
+
+          <div class="col-10 col-lg-8">
+  <div class="school-career-entry-heading">
+    <h5>ENSIIE</a></h5>
+    <h6>Ingénieur Informatique</h6>
+    <p class="text-muted"> 2017 - 2020, Évry (91)</p>
+  </div>
+  
+  
+</div>
+
+        </div>
+    
+        <div class="row align-items-center  d-flex">
+          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center vertical-line-left-adjustment">
+  <div class="circle font-weight-bold">2</div>
+</div>
+
+          <div class="col-10 col-lg-8">
+  <div class="school-career-entry-heading">
+    <h5>Université d&#39;Évry</a></h5>
+    <h6>Licence Architecture des Systèmes et des Réseaux</h6>
+    <p class="text-muted"> 2016 - 2017, Évry (91)</p>
+  </div>
+  
+  
+</div>
+
+        </div>
+    
+        <div class="row align-items-center  d-flex">
+          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center vertical-line-left-adjustment">
+  <div class="circle font-weight-bold">3</div>
+</div>
+
+          <div class="col-10 col-lg-8">
+  <div class="school-career-entry-heading">
+    <h5>IUT Fontainebleau</a></h5>
+    <h6>DUT</h6>
+    <p class="text-muted"> 2012 - 2014, Fontainebleau (77)</p>
+  </div>
+  
+  
+</div>
+
+        </div>
+    
+        <div class="row align-items-center  d-flex">
+          <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center vertical-line-left-adjustment">
+  <div class="circle font-weight-bold">4</div>
+</div>
+
+          <div class="col-10 col-lg-8">
+  <div class="school-career-entry-heading">
+    <h5>Lycée Fragonard</a></h5>
+    <h6>Baccalauréat Scientifique</h6>
+    <p class="text-muted">2012, L&#39;Isle-Adam (95)</p>
+  </div>
+  
+  
+</div>
+
+        </div>
+    
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-dimmed">
+            <div class="container-fluid anchor pb-5 achievements-section" id="achievements">
+  <h1 class="text-center">Achievements</h1>
+  <div class="container">
+    <div class="row" id="gallery">
+    </div>
+  </div>
+  
+  <div class="d-none" id="achievements-holder">
+    
+      <div
   class="achievement-entry text-center"
   style="background-image: url(images/achievements/intel.jpg);"
 >
@@ -866,8 +1013,8 @@
   </div>
 </div>
 
-      
-        <div
+    
+      <div
   class="achievement-entry text-center"
   style="background-image: url(images/achievements/parachute.jpg);"
 >
@@ -879,8 +1026,8 @@
   </div>
 </div>
 
-      
-        <div
+    
+      <div
   class="achievement-entry text-center"
   style="background-image: url(images/achievements/gr20.jpg);"
 >
@@ -892,8 +1039,8 @@
   </div>
 </div>
 
-      
-        <div
+    
+      <div
   class="achievement-entry text-center"
   style="background-image: url(images/achievements/chapusale.jpeg);"
 >
@@ -905,51 +1052,62 @@
   </div>
 </div>
 
-      
-    </div>
-  
+    
+  </div>
 </div>
-<footer class="container-fluid text-center align-content-center footer pb-2">
+
+          </div>
+          
+          
+            
+          
+        
+      
+    
+
+    <footer class="container-fluid text-center align-content-center footer pb-2">
   <div class="container pt-5">
     <div class="row text-left">
       <div class="col-md-4 col-sm-12">
         <h5>Navigation</h5>
         
-          <ul>
+        <ul>
             
             <li class="nav-item">
-              <a class="smooth-scroll" href="#home">Home</a>
+              <a class="smooth-scroll" href="#about">About</a>
             </li>
+            
             
             <li class="nav-item">
-              <a class="smooth-scroll" href="#about">A Propos</a>
+              <a class="smooth-scroll" href="#skills">Skills</a>
             </li>
+            
             
             <li class="nav-item">
-              <a class="smooth-scroll" href="#skills">Compétences</a>
+              <a class="smooth-scroll" href="#experiences">Experiences</a>
             </li>
+            
             
             <li class="nav-item">
-              <a class="smooth-scroll" href="#experiences">Expériences</a>
+              <a class="smooth-scroll" href="#projects">Projects</a>
             </li>
+            
             
             <li class="nav-item">
-              <a class="smooth-scroll" href="#projects">Projets</a>
+              <a class="smooth-scroll" href="#school-career">School Career</a>
             </li>
+            
             
             <li class="nav-item">
-              <a class="smooth-scroll" href="#recent-posts">Parcours Scolaire</a>
+              <a class="smooth-scroll" href="#achievements">Achievements</a>
             </li>
             
-            <li class="nav-item">
-              <a class="smooth-scroll" href="#achievements">Succès</a>
-            </li>
-            
-          </ul>
+        </ul>
         
+
       </div>
       <div class="col-md-4 col-sm-12">
-        <h5>Contactez Moi</h5>
+        <h5>Contact Me</h5>
         <ul>
           
           <li><span>Email: </span> <span>chapusot.antoine@pm.me</span></li>
