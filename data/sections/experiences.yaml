@@ -7,7 +7,7 @@ section:
 
 # Your experiences
 experiences:
-  - designation: Ingénieur Cloud
+  - designation: Ingénieur Cloud (alternant)
     company:
       name: BNP Paribas Partners for Innovation (BP2I)
       url: "https://www.linkedin.com/company/bnp-paribas-partners-for-innovation/"
@@ -81,7 +81,7 @@ experiences:
     responsibilities:
       - Mise en place d’un cluster Haute Disponibilité MsSQL14 (AlwaysOn)
 
-  - designation: Responsable Service Informatique
+  - designation: Responsable Service Informatique (alternant)
     company:
       name: Sextant Solution Informatique (SSI)
       url: "http://www.sextant-si.com"
