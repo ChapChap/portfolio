@@ -20,9 +20,15 @@ experiences:
     # give some points about what was your responsibilities at the company.
     responsibilities:
       - Design offre PaaS de Cluster Kubernetes as a Service
+      - Rédaction de templates Infra as Code Terraform
+      - Monitoring des resources livrées et indiquateurs KPI
+      - Mise en place de règles de sécurités sur déploiement Kubernetes
+      - Définition du standard d’API pour Micro-services
       - Installation Cloud Privé ICp (3.1.1) et bug busting 
       - Automatisation Ansible de tuning des noeuds Kubernetes
-      - Design d'un plan de reboot sanitaire via kured
+      - Versionning de documentation et scripts via Git 
+      - Design d'un plan de reboot sanitaire Kubernetes via kured
+      - Upgrade Kubernetes & systèmes sur environnement de Prod
       - Tests End to End (Selenium, Bats) de la plateforme ICp
       - Exploitation N2/N3 Kubernetes & Docker
       - Refonte documentation d’exploitation Cloud (word -> wiki)
@@ -37,11 +43,14 @@ experiences:
     end: 2018
     responsibilities:
       - Livraison et tunning socle système RHEL 6/7
+      - Évolution de Kickstart pour différentes versions d’OS
+      - Utilisation de RH Satellite pour inventaire et update packages
       - Hardening Applicatif & PCI-DSS
       - Responsable plateforme ETL Talend on-premise
       - Automatisation par Scripting Shell & Powershell
       - Déploiements middlewares apache & tomcat
       - Key User ReleaseAutomation (CI)
+      - Design de chaînes d’orchestration
       - Résolution Backlog N2, N3
 
   - designation: Technicien d’exploitation
@@ -54,6 +63,8 @@ experiences:
     end: 2016
     responsibilities:
       - POC OpenStack v12 from scratch et full stack
+      - Design de l’architecture de la plateforme Cloud
+      - Études techniques comparatives de performances
       - Supervision multi-clients, gestion des incidents P4 à P1 dans les SLA
       - Service Desk N2 (Français/Anglais)
       - Reporting quotidiens d’incidents et métriques KPI
@@ -79,6 +90,8 @@ experiences:
     start: 2015
     end: 2015
     responsibilities:
+      - Audit SI et études des besoins de la société
+      - Design d’une solution de résilience de Base de données
       - Mise en place d’un cluster Haute Disponibilité MsSQL14 (AlwaysOn)
 
   - designation: Responsable Service Informatique (alternant)
