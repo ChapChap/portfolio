@@ -26,7 +26,7 @@ skills:
 
 - name: Git
   icon: "images/skills/git.png"
-  summary: "Héberge ses projets sur Github et Gitlab avec CICD TravisCI. Utilise une toolchain pur les mises en productions"
+  summary: "Héberge ses projets sur Github et Gitlab avec CICD TravisCI. Utilise une toolchain pour les mises en productions"
 
 - name: Grafana
   icon: "images/skills/grafana.png"

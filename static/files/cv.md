@@ -26,11 +26,14 @@ Ingénieur Cloud au parcours d’ingénieur système linux, j’oriente mon prof
 
 ## Compétences
 
-Mise en place et maintient d'une solution Cloud On Premise
-Administration de ressources Cloud Publique AWS, IBM Cloud
-Analyse N3 des systèmes Linux
-Anglais avancé C1 (Bulats, TOEIC, CLES)
-Sociable, Dynamique, Curieux, Persévérant
+- Mise en place et maintient d'une solution Cloud On Premise
+- Administration de ressources Cloud Publique AWS, IBM Cloud
+- Administration et analyse N3 d’un parc de systèmes Linux
+- Monitoring KPI et Collecte de journaux de Cluster.
+- Implémentation de mesures de sécurités systèmes
+- Mise en Production d’une chaîne CI-CD
+- Anglais avancé C1 (Bulats, TOEIC, CLES)
+- Sociable, Dynamique, Curieux, Persévérant
 
 ## Chrono
 
@@ -39,9 +42,15 @@ Sociable, Dynamique, Curieux, Persévérant
 #### BNP - 2018-2020 - Ingénieur Cloud
 
 - Design offre PaaS de Cluster Kubernetes as a Service
+- Rédaction de templates Infra as Code Terraform
+- Monitoring des resources livrées et indiquateurs KPI
+- Mise en place de règles de sécurités sur déploiement Kubernetes
+- Définition du standard d’API pour Micro-services
 - Installation Cloud Privé ICp (3.1.1) et bug busting 
 - Automatisation Ansible de tuning des noeuds Kubernetes
-- Design d'un plan de reboot sanitaire via kured
+- Versionning de documentation et scripts via Git 
+- Design d'un plan de reboot sanitaire Kubernetes via kured
+- Upgrade Kubernetes & systèmes sur environnement de Prod
 - Tests End to End (Selenium, Bats) de la plateforme ICp
 - Exploitation N2/N3 Kubernetes & Docker
 - Refonte documentation d’exploitation Cloud (word -> wiki)
@@ -49,16 +58,21 @@ Sociable, Dynamique, Curieux, Persévérant
 #### AccorHotels - 2016-2018 - Administrateur Systèmes Unix
 
 - Livraison et tunning socle système RHEL 6/7
+- Évolution de Kickstart pour différentes versions d’OS
+- Utilisation de RH Satellite pour inventaire et update packages
 - Hardening Applicatif & PCI-DSS
 - Responsable plateforme ETL Talend on-premise
 - Automatisation par Scripting Shell & Powershell
 - Déploiements middlewares apache & tomcat
 - Key User ReleaseAutomation (CI)
+- Design de chaînes d’orchestration
 - Résolution Backlog N2, N3
 
 #### Sextant Solution Informatique - 2014-2016 - Technicien d’exploitation
 
 - POC OpenStack v12 from scratch et full stack
+- Design de l’architecture de la plateforme Cloud
+- Études techniques comparatives de performances
 - Supervision multi-clients, gestion des incidents P4 à P1 dans les SLA
 - Service Desk N2 (Français/Anglais)
 - Reporting quotidiens d’incidents et métriques KPI
@@ -70,6 +84,8 @@ Sociable, Dynamique, Curieux, Persévérant
 
 #### Micro Concept - Mai-Juin 2015 - Stagiaire
 
+- Audit SI et études des besoins de la société
+- Design d’une solution de résilience de Base de données
 - Mise en place d’un cluster Haute Disponibilité MsSQL14 (AlwaysOn)
 
 #### DSD Organisation - Juin 2014 - Démarchage Évenementiel
