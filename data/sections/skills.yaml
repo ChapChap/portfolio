@@ -22,7 +22,7 @@ skills:
 
 - name: Docker
   icon: "images/skills/docker.svg"
-  summary: "Crée des projets applicatifs Docker, respect des [12Factors](https://12factor.net/fr/)"
+  summary: Crée des projets applicatifs Docker, respect des [12Factors](https://12factor.net/fr/). Manipule également [podman](https://github.com/containers/libpod), [buildah](https://github.com/containers/buildah), [skopeo](https://github.com/containers/skopeo), ...
 
 - name: Git
   icon: "images/skills/git.png"
