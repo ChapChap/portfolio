@@ -1,0 +1,46 @@
+# section information
+section:
+  name: School Career
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+studies:
+- degree: Ingénieur Informatique
+  school:
+    name: ENSIIE
+    location: Évry (91)
+  start: 2017
+  end: 2020
+  lessons:
+  - Test Driven Developpement
+  - Virtualisation Cloud & Cyber Sécurité
+  - Project Management Agile and SCRUM
+
+- degree: Licence Architecture des Systèmes et des Réseaux
+  school:
+    name: Université d'Évry
+    location: Évry (91)
+  start: 2016
+  end: 2017
+  lessons:
+  - IPv4/v6
+  - virtualisation de Topologies Réseaux
+  - ITIL v3
+
+- degree: DUT
+  school:
+    name: IUT Fontainebleau
+    location: Fontainebleau (77)
+  start: 2012
+  end: 2014
+  lessons:
+  - Projets C, Java en groupes
+  - Architecture OS 
+
+- degree: Baccalauréat Scientifique
+  school:
+    name: Lycée Fragonard
+    location: L'Isle-Adam (95)
+  # don't provide start date if this represent the year of obtaining the degree. It will only leave the date
+  end: 2012

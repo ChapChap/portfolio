@@ -1,0 +1,37 @@
+# section information
+section:
+  name: Skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+# Your Skills.
+# Give a summary of you each skill in summary section.
+skills:
+- name: Kubernetes
+  icon: "images/skills/kubernetes.png"
+  summary: "Capable de construire un cluster Kubernetes On Premise et sur Cloud Public. Experimenté dans le déploiement et la gestion d'applications"
+
+- name: Cloud Computing
+  icon: "images/skills/cloud.png"
+  summary: "Design d'offres PaaS sur IBM Cloud. Maitrîse des outils Terraform, Helm, OPA, Podman. Expérimenté sur IBM Cloud, AWS, OpenStack"
+
+- name: Linux
+  icon: "images/skills/linux.png"
+  summary: "RHEL, Debian, Ubuntu, FreeBSD, UNIX. Maîtrise administrative de la plupart des systèmes Linux"
+
+- name: Docker
+  icon: "images/skills/docker.svg"
+  summary: Crée des projets applicatifs Docker, respect des [12Factors](https://12factor.net/fr/). Manipule également [podman](https://github.com/containers/libpod), [buildah](https://github.com/containers/buildah), [skopeo](https://github.com/containers/skopeo), ...
+
+- name: Git
+  icon: "images/skills/git.png"
+  summary: "Héberge ses projets sur Github et Gitlab avec CICD TravisCI. Utilise une toolchain pur les mises en productions"
+
+- name: Grafana
+  icon: "images/skills/grafana.png"
+  summary: "Sait mettre en place du monitoring système et Cloud avec Grafana mais aussi Telegraf, InfluxDB ou encore Sysdig"
+
+- name: Databases
+  icon: "images/skills/db.png"
+  summary: "Configure des bases de données telles que Redis, MongoDB, Postgres, MySQL/MariaDB"
