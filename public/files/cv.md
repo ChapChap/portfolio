@@ -35,7 +35,6 @@ Ingénieur Cloud au parcours d’ingénieur système linux, j’oriente mon prof
 - Anglais avancé C1 (Bulats, TOEIC, CLES)
 - Sociable, Dynamique, Curieux, Persévérant
 
-
 ## Chrono
 
 ### Professionnel
@@ -73,7 +72,7 @@ Ingénieur Cloud au parcours d’ingénieur système linux, j’oriente mon prof
 
 - POC OpenStack v12 from scratch et full stack
 - Design de l’architecture de la plateforme Cloud
-- Études techniques comparatives de performance
+- Études techniques comparatives de performances
 - Supervision multi-clients, gestion des incidents P4 à P1 dans les SLA
 - Service Desk N2 (Français/Anglais)
 - Reporting quotidiens d’incidents et métriques KPI
