@@ -21,8 +21,8 @@ experiences:
     responsibilities:
       - Design offre PaaS de Cluster Kubernetes as a Service
       - Rédaction de templates Infra as Code Terraform
-      - Monitoring des resources livrées et indiquateurs KPI
-      - Mise en place de règles de sécurités sur déploiement Kubernetes
+      - Monitoring des ressources livrées et indicateurs KPI
+      - Mise en place de règles de sécurité sur déploiement Kubernetes
       - Définition du standard d’API pour Micro-services
       - Installation Cloud Privé ICp (3.1.1) et bug busting 
       - Automatisation Ansible de tuning des noeuds Kubernetes
@@ -38,7 +38,7 @@ experiences:
       name: Accor
       url: "https://group.accor.com/fr-FR"
       location: Courcouronnes (91)
-      overview: La chaîne d'hotelerie mondiale Accor Hotel est leader sur le marché Européen et relève les challenges d'unifier son SI entre ses marques.
+      overview: La chaîne d'hôtellerie mondiale Accor Hotels est leader sur le marché Européen et relève les challenges d'unifier son SI entre ses marques.
     start: 2016
     end: 2018
     responsibilities:
@@ -79,8 +79,7 @@ experiences:
     start: 2015
     end: 2015
     responsibilities:
-      - Dispense de cours particulier de Math et Info
-
+      - Dispense de cours particuliers de Maths et Informatique
   - designation: Stagiaire (1 mois)
     company:
       name: Micro Concept
@@ -105,6 +104,6 @@ experiences:
     responsibilities:
       - Maintenance et évolution Intranet (Sharepoint)
       - Automatisation KPI consommation imprimante en VBA
-      - Mastering Windows utilisateurs et servers
+      - Mastering Windows utilisateurs et serveurs
       - Maintenance de station de production
       - Création de tutoriels et rédaction de procédures
