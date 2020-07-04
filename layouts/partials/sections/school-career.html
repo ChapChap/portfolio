@@ -1,0 +1,13 @@
+<div class="container-fluid anchor" id="school-career">
+  <h1 class="text-center">{{ .section.name }}</h1>
+
+  <div class="container timeline text-justify">
+    {{ $totalSchools:= len .studies }}
+    {{ range $index,$study:= .studies }}
+        <div class="row align-items-center  d-flex">
+          {{ partial "navigators/vertical-line.html" $index }}
+          {{ partial "sections/school-career-info.html" $study }}
+        </div>
+    {{ end }}
+  </div>
+</div>

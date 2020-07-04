@@ -1,16 +1,32 @@
-baseURL: http://de.antoine.chapusot.fr/
-languageCode: fr-fr
-title: "Antoine Chapusot Portfolio"
-theme: "toha"
+baseURL: http://antoine.chapusot.fr/
+languageCode: en-us
+title: " "
+theme: "toha-1.3.0"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    languageName: English
+    weight: 1
+  fr:
+    languageName: Français
+    weight: 2
+
+DefaultContentLanguage: fr
 
 # Allow raw html in markdown file
 markup:
   goldmark:
     renderer:
       unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
 
 # Enable Google Analytics
-googleAnalytics: UA-xxxxxxxx
+googleAnalytics: G-P9Y0295P3Y
 
 # Enable Disqus forum
 disqusShortname: does-not-exist
@@ -20,11 +36,16 @@ enableEmoji: true
 
 # Custom parameters
 params:
-  # copyright
-  copyright: © 2020 Copyright.
-
   # background image of the landing page
   background: "images/background.jpg"
+
+  # Provide logos for your site. The inverted logo will be used in the initial
+  # transparent navbar and the main logo will be used in the non-transparent navbar.
+  # It will be default to the theme logos if not provided.
+  logo:
+    main: images/avatar3.png
+    inverted: images/avatar3.png
+    favicon: images/avatar2.png
 
   # GitHub repo URL of your site
   gitRepo: https://github.com/ChapChap/portfolio
@@ -32,23 +53,10 @@ params:
   # specify whether you want to write blog post or not
   enableBlogPost: false
 
-  # specify the list of custom menus that you want to show in the top navbar.
-  # they will be separated by a divider from the main menus.
-  customMenus:
-  - name: CV
-    url: files/resume.pdf
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
 
-  # some information about you
-  author:
-    name: "Antoine Chapusot"
-    image: "images/avatar.png"
-    # give your some contact information. they will be used in the footer
-    contactInfo:
-      email: "chapusot.antoine@pm.me"
-      phone: "+33650551463"
-    # a summary of what you do
-    summary:
-    - Ingénieur Cloud
-    - Passionné
-    - Kubernetes Lover
-    - Fan du système de Linus T.
+  # Provide newsletter configuration. This feature hasn't been implemented yet.
+  # Currently, you can just hide it from the footer.
+  newsletter:
+    enable: false

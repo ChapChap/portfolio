@@ -8,16 +8,19 @@
 
 
 <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/assets/css/layouts/main.css" />
 <link rel="stylesheet" href="/assets/css/style.css" />
-<link rel="stylesheet" href="/assets/css/navbar.css" />
+<link rel="stylesheet" href="/assets/css/navigators/navbar.css" />
 
 
 <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
 
 
-<link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+<link rel="icon" type="image/png" href="http://antoine.chapusot.fr/images/avatar2.png" />
 
+
+<link rel="stylesheet" href="/assets/css/style.css" />
 
     
     <link rel="stylesheet" href="/assets/css/404.css">
@@ -30,7 +33,7 @@
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-xxxxxxxx', 'auto');
+	ga('create', 'G-P9Y0295P3Y', 'auto');
 	
 	ga('send', 'pageview');
 }
@@ -40,26 +43,41 @@ if (!doNotTrack) {
     
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
     <div class="container-fluid bg-dimmed wrapper">
       
       
-    <nav class="navbar navbar-expand-lg top-navbar final-navbar shadow">
-    <div class="container">
-      <a class="navbar-brand" href="">
-        <img src="/assets/images/logo.png">Antoine Chapusot Portfolio</a>
-      <button class="navbar-toggler navbar-light" type="button" >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    
 
-      <div class="collapse navbar-collapse" id="top-nav-items">
-        <ul class="navbar-nav ml-auto">
-        </ul>
-      </div>
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      <img src="http://antoine.chapusot.fr/assets/images/main-logo.png"> </a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
     </div>
+  </div>
+  
+  <img src="http://antoine.chapusot.fr/assets/images/main-logo.png" class="d-none" id="main-logo">
+  <img src="http://antoine.chapusot.fr/assets/images/inverted-logo.png" class="d-none" id="inverted-logo">
 </nav>
 
 
+
+      
+       
 
       
       
@@ -73,59 +91,107 @@ if (!doNotTrack) {
     </div>
 </div>
 
+
+      
+       
     </div>
 
-    <footer class="container-fluid text-center align-content-center footer pb-2">
+    
+
+  
+
+
+
+
+  
+
+
+
+
+  
+  
+    
+  
+
+
+<footer class="container-fluid text-center align-content-center footer pb-2">
   <div class="container pt-5">
     <div class="row text-left">
       <div class="col-md-4 col-sm-12">
-        <h5>Navigation</h5>
+        <h5>Naviguation</h5>
         
         <ul>
             
-            <li class="nav-item">
-              <a class="smooth-scroll" href="#about">About</a>
-            </li>
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#about">👤 À Propos</a>
+              </li>
             
             
-            <li class="nav-item">
-              <a class="smooth-scroll" href="#skills">Skills</a>
-            </li>
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#skills">🧠 Compétences</a>
+              </li>
             
             
-            <li class="nav-item">
-              <a class="smooth-scroll" href="#experiences">Experiences</a>
-            </li>
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#experiences">💼 Expériences</a>
+              </li>
             
             
-            <li class="nav-item">
-              <a class="smooth-scroll" href="#projects">Projects</a>
-            </li>
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#projects">🏗 Projets</a>
+              </li>
             
             
-            <li class="nav-item">
-              <a class="smooth-scroll" href="#school-career">School Career</a>
-            </li>
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#school-career">🎓 Parcours Scolaire</a>
+              </li>
             
             
-            <li class="nav-item">
-              <a class="smooth-scroll" href="#achievements">Achievements</a>
-            </li>
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#achievements">🎯 Succès</a>
+              </li>
             
         </ul>
         
 
       </div>
+      
       <div class="col-md-4 col-sm-12">
-        <h5>Contact Me</h5>
+        <h5>Contactez moi :</h5>
         <ul>
           
-          <li><span>Email: </span> <span>chapusot.antoine@pm.me</span></li>
+          <li><span>Email: </span> <span>antoine@chapusot.fr</span></li>
           
           <li><span>Phone: </span> <span>&#43;33650551463</span></li>
           
         </ul>
       </div>
+      
+      
     </div>
   </div>
   <hr />
@@ -133,13 +199,13 @@ if (!doNotTrack) {
     <div class="row text-left">
       <div class="col-md-4">
         <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
-          <img src="/assets/images/logo-inverted.png">
+          <img src="/assets/images/inverted-logo.png">
           Toha
         </a>
       </div>
-      <div class="col-md-4">© 2020 Copyright.</div>
-      <div class="col-md-4">
-        Powered by <a href="https://gohugo.io/">Hugo
+      <div class="col-md-4 text-center">© 2020 Copyright.</div>
+      <div class="col-md-4 text-right">
+        <a id="hugo" href="https://gohugo.io/">Alimenté par
         <img
           src="/assets/images/hugo-logo-wide.svg"
           alt="Hugo Logo"
@@ -152,10 +218,11 @@ if (!doNotTrack) {
 </footer>
 
     <script src="/assets/js/jquery-3.4.1.min.js"></script>
+<script src="/assets/js/popper.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
 
 <script src="/assets/js/navbar.js"></script>
-<script src="/assets/js/jquery.filterizr.min.js"></script>
+<script src="/assets/js/main.js"></script>
 
 
     
