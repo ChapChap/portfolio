@@ -1,0 +1,143 @@
+# section information
+section:
+  name: 💼 Expériences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  template: sections/experiences.html
+
+# Your experiences
+experiences:
+- company:
+    name: Padok
+    url: "https://www.padok.fr"
+    location: Paris (17e)
+    # company overview
+    overview: |
+      Padok est une statup axée sur les technologies Cloud
+      et les bonnes pratiques OPS.
+  positions:
+  - designation: SRE
+    start: 2020
+    responsibilities:
+      - Changes coming
+
+- company:
+    name: BNP Paribas Partners for Innovation (BP2I)
+    url: "https://www.linkedin.com/company/bnp-paribas-partners-for-innovation/"
+    location: Montreuil (93)
+    # company overview
+    overview: |
+      BP2I est la joint-venture entre IBM et BNP Paribas
+      qui construit et administre le SI de la Banque.
+  positions:
+  - designation: Ingénieur Cloud (alternant)
+    start: 2018
+    end: 2020
+    responsibilities:
+      - Design offre PaaS de Cluster Kubernetes as a Service
+      - Rédaction de templates Infra as Code Terraform
+      - Monitoring des ressources livrées et indicateurs KPI
+      - Mise en place de règles de sécurité sur déploiement Kubernetes
+      - Définition du standard d’API pour Micro-services
+      - Installation Cloud Privé ICp (3.1.1) et bug busting
+      - Automatisation Ansible de tuning des noeuds Kubernetes
+      - Versionning de documentation et scripts via Git
+      - Design d'un plan de reboot sanitaire Kubernetes via kured
+      - Upgrade Kubernetes & systèmes sur environnement de Prod
+      - Tests End to End (Selenium, Bats) de la plateforme ICp
+      - Exploitation N2/N3 Kubernetes & Docker
+      - Refonte documentation d’exploitation Cloud (word -> wiki)
+      - Appris à coder
+
+- company:
+    name: Accor
+    url: "https://group.accor.com/fr-FR"
+    location: Courcouronnes (91)
+    overview: |
+      La chaîne d'hôtellerie mondiale Accor Hotels est leader
+      sur le marché Européen et relève les challenges d'unifier son SI entre ses marques.
+  positions:
+  - designation: Administrateur Systèmes Unix
+    start: 2016
+    end: 2018
+    responsibilities:
+      - Livraison et tunning socle système RHEL 6/7
+      - Évolution de Kickstart pour différentes versions d’OS
+      - Utilisation de RH Satellite pour inventaire et update packages
+      - Hardening Applicatif & PCI-DSS
+      - Responsable plateforme ETL Talend on-premise
+      - Automatisation par Scripting Shell & Powershell
+      - Déploiements middlewares apache & tomcat
+      - Key User ReleaseAutomation (CI)
+      - Design de chaînes d’orchestration
+      - Résolution Backlog N2, N3
+
+- company:
+    name: Sextant Solution Informatique (SSI)
+    url: "http://www.sextant-si.com"
+    location: Evry (91)
+    overview: |
+      Sextant SI est une SSII qui offre à ses clients la gestion N1, N2 de son IT
+      ainsi que des profils experts divers.
+  positions:
+  - designation: Technicien d’exploitation
+    start: 2014
+    end: 2016
+    responsibilities:
+      - POC OpenStack v12 from scratch et full stack
+      - Design de l’architecture de la plateforme Cloud
+      - Études techniques comparatives de performances
+      - Supervision multi-clients, gestion des incidents P4 à P1 dans les SLA
+      - Service Desk N2 (Français/Anglais)
+      - Reporting quotidiens d’incidents et métriques KPI
+      - Ordonnancement (Automator N1)
+
+- company:
+    name: Université Evry Val d'Essonne
+    url: "https://www.univ-evry.fr"
+    location: Evry (91)
+    overview: |
+      L'Université dans laquelle j'ai effectué ma Licence et
+      qui m'a permis de donner des cours de soutien.
+  positions:
+  - designation: Professeur Particulier (2 semaines)
+    start: 2015
+    end: 2015
+    responsibilities:
+      - Dispense de cours particuliers de Maths et Informatique
+
+- company:
+    name: Micro Concept
+    url: "http://www.micro-concept.fr"
+    location: Seugy (95)
+    overview: |
+      Micro Concept apporte des solutions informatiques telles que
+      l'installation et maintenance de matériel, la sécurisation des réseaux,
+      de la téléphonie IP, du développement logiciel.
+  positions:
+  - designation: Stagiaire (1 mois)
+    start: 2015
+    end: 2015
+    responsibilities:
+      - Audit SI et études des besoins de la société
+      - Design d’une solution de résilience de Base de données
+      - Mise en place d’un cluster Haute Disponibilité MsSQL14 (AlwaysOn)
+
+- company:
+    name: Gestamp Automotion
+    url: "https://www.gestamp.com/About-Us/Gestamp-in-the-world/Centers/Europe/France/Gestamp-Noury-Gretz"
+    location: Evry (91)
+    overview: |
+      Gestamp Automotion.
+  positions:
+  - designation: Responsable Service Informatique (alternant)
+    start: 2013
+    end: 2014
+    responsibilities:
+      - Maintenance et évolution Intranet (Sharepoint)
+      - Automatisation KPI consommation imprimante en VBA
+      - Mastering Windows utilisateurs et serveurs
+      - Maintenance de station de production
+      - Création de tutoriels et rédaction de procédures
