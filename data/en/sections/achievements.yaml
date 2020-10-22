@@ -1,0 +1,26 @@
+# section information
+section:
+  name: 🎯 Achievements
+  id: achievements
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  template: sections/achievements.html
+
+# Your achievements achievements
+achievements:
+  - title: Intel Museum, Santa Clara, CA
+    image: images/achievements/intel.jpg
+    summary: On the Tracks of Silica in Intel Semiconductors
+  - title: Parachute Jumping Licence
+    image: images/achievements/parachute.jpg
+    summary: Solo Parachute Jumping since 2019
+  - title: Corsica - GR20
+    image: images/achievements/gr20.jpg
+    summary: Crossing of Corsica following the famous Grande Randonnée \#20 of 180km
+  # - title: Ingénieur Diplômé
+  #   image: images/achievements/ensiie.gif
+  #   summary: Diplôme d'ingénieur en Informatique obtenu en 2020 à l'ENSIIE
+  - title: Artisanal Family Beer
+    image: images/achievements/chapusale.jpeg
+    summary: 2020 Cru, Handcrafted Family Beer 'La Chapusale'
