@@ -1,0 +1,101 @@
+# section information
+section:
+  name: 🏗 Projets
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  template: sections/projects.html
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Cluster as a Service
+  url : https://github.com/IBM-Cloud/terraform-provider-ibm/issues/1500
+  logo: images/projects/terraform.png
+  role: Team Lead
+  timeline: "Janv 2020 - Aujourd'hui"
+  summary: Design d'une offre PaaS de création de Cluster Kubernetes à la demande sur socle IBMCloud avec orchestration en Micro-Services
+  tags: ["professional","terraform","cloud","micro-service","Kubernetes"]
+
+- name: Portfolio
+  repo : https://github.com/ChapChap/portfolio
+  logo: images/projects/bowtie.png
+  role: Owner
+  timeline: "Juin 2020 - Aujourd'hui"
+  summary: Ce site web basé sur l'excellent thème [Hugo](https://github.com/gohugoio/hugo) [Toha](https://github.com/hossainemruz/toha) regroupant mon parcours [professionnel](#experiences), [scolaire](#academic-career) et [personnel](#achievements)
+  tags: ["professional","hobby","go","hugo","toha"]
+
+- name: ChapoWebServices
+  repo : https://github.com/ChapChap/ChapoWebServices
+  logo: images/projects/docker.svg
+  role: Owner
+  timeline: "Nov 2018 - Aujourd'hui"
+  summary: Déploiements Docker sur Raspberry Pi (ARM) v1 à v4 de serveurs web, WordPress, BDD, Wiki, etc.
+  tags: ["hobby","raspberrypi","docker"]
+
+- name: DAO Intelligence Artificielle
+  url : https://gitlab.com/TheChap/Dao-AI
+  logo: images/projects/dao.png
+  role: Developer
+  timeline: "Mai - Juin 2019"
+  summary: "Développement d'un jeu : le [DAO](https://www.boardgamegeek.com/boardgame/948/dao) et recherches sur les différentes possiblilités d'apprentissage par Intelligences Artificielles"
+  tags: ["academic","AI","python"]
+
+- name: Jetpack Back
+  repo : https://github.com/jayok007/jetpack-back
+  logo: images/projects/jetpackblack.svg
+  role: Developer
+  timeline: "Avril - Mai 2019"
+  summary: Développement Backend d'un projet web en NodeJS faisant intervenir 2 équipes et du TDD
+  tags: ["academic","TDD","team-work"]
+
+- name: Jetpack Front
+  repo : https://github.com/jayok007/jetpack-front
+  logo: images/projects/jetpackcolor.svg
+  role: Developer
+  timeline: "Avril - Mai 2019"
+  summary: Frontend du projet Jetpack Backend avec les mêmes contraintes dans la seconde équipe
+  tags: ["academic","TDD","team-work"]
+
+- name: TDD Pipeline
+  repo : https://github.com/ChapChap/TDD-pipeline
+  logo: images/projects/tdd.png
+  role: Owner
+  timeline: "Mars - Avril 2019"
+  summary: Travaux dirigés sur le [Test Driven Development](http://preview.kingborn.net/793000/83a3ca305ab84ee78f762dbdcbe66912.pdf)
+  tags: ["academic","TDD","best-practices"]
+
+- name: crispy-bassoon
+  repo : https://github.com/hassenius/crispy-bassoon
+  logo: images/projects/test.png
+  role: Developer
+  timeline: "Mars 2019"
+  summary: Élaboration de Tests Shell via l'outil [Bats](https://github.com/sstephenson/bats)
+  tags: ["professional","shell","bats"]
+
+- name: progressbar
+  repo : https://github.com/TheWatermelon/progressbar
+  logo: images/projects/progressbar.png
+  role: Developer
+  timeline: "Nov 2018"
+  summary: Micro projet de barre de progression adaptative en langage C
+  tags: ["hobby","C","CLI-tool"]
+
+- name: Le Bar D
+  url : https://gitlab.com/ProjetsEnsiie/lebard
+  logo: images/projects/beer.png
+  role: Team Lead
+  timeline: "Oct 2018 - Nov 2018"
+  summary: Projet web en équipe de réalisation d'une application Web full stack (BDD, Back, Front)
+  tags: ["academic","web","oauth"]

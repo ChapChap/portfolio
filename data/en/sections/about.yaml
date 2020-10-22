@@ -1,0 +1,68 @@
+# section information
+section:
+  name: 👤 About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: SRE
+# your company information
+company:
+  name: Padok
+  url: "https://www.padok.fr"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: |
+  [📑 My posts](https://www.padok.fr/blog/author/antoine-chapusot)
+
+  Cloud Engineer with a Linux SysAdmin backgroud,
+  I direct my profile towards Cloud services with [Kubernetes](https://kubernetes.io/)
+  and IBMCloud in 2018. I am looking for new missions
+  in this area of application time-to-market acceleration
+  through Cloud technologies.
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "antoine@chapusot.fr"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/antoinechapusot/"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/ChapChap"
+
+- name: Gitlab
+  icon: "fab fa-gitlab"
+  url: "https://gitlab.com/TheChap"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/11330073/chap"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported color: blue, yellow, pink, green
+softSkills:
+- name: Team Work
+  percentage: 95
+  color: blue
+- name: Dynamic
+  percentage: 90
+  color: yellow
+- name: Curious
+  percentage: 85
+  color: pink
+- name: Hard working
+  percentage: 85
+  color: green
