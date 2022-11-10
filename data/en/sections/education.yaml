@@ -1,11 +1,11 @@
 # section information
 section:
   name: 🎓 Academic Career
-  id: school-career
+  id: education
   enable: true
   weight: 5
   showOnNavbar: true
-  template: sections/school-career.html
+  template: sections/education.html
 
 studies:
 - degree: Ingénieur Informatique

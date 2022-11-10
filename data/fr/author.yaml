@@ -1,7 +1,6 @@
 # some information about you
 name: "Antoine Chapusot"
 nickname: "Chap"
-image: "images/avatar4.png"
 
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Bonjour, moi c'est"
