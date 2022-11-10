@@ -1,4 +1,5 @@
 baseURL: http://antoine.chapusot.fr/
+
 languageCode: en-us
 title: " "
 theme: "toha-2.1.0"
@@ -13,44 +14,22 @@ languages:
     languageName: Français
     weight: 2
 
-DefaultContentLanguage: fr
-
-# Allow raw html in markdown file
+# Control TOC depth
 markup:
-  goldmark:
-    renderer:
-      unsafe: true
   tableOfContents:
     startLevel: 2
     endLevel: 6
     ordered: false
 
-# Enable Google Analytics
-googleAnalytics: G-P9Y0295P3Y
-
-# Enable Disqus forum
-disqusShortname: does-not-exist
-
 # Enable global emoji support
 enableEmoji: true
 
-# Custom parameters
+# Site parameters
 params:
-  # background image of the landing page
-  background: "images/background.jpg"
-
-  # Provide logos for your site. The inverted logo will be used in the initial
-  # transparent navbar and the main logo will be used in the non-transparent navbar.
-  # It will be default to the theme logos if not provided.
-  logo:
-    main: images/avatar3.png
-    inverted: images/avatar3.png
-    favicon: images/avatar2.png
-
   # GitHub repo URL of your site
   gitRepo: https://github.com/ChapChap/portfolio
 
-  # specify whether you want to write blog post or not
+  # specify whether you want to write some blog posts or not
   enableBlogPost: false
 
   # specify whether you want to show Table of Contents in reading page
